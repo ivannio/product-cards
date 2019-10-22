@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(232, 235, 247)
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    text-align: justify;
+    text-justify: auto;
+}
+
+.available {
+    background-color: grey;
+    color: yellow;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.753);
+    border: 1px solid lightblue;
+    width: 250px;
+    margin: 1em;
+    box-shadow: 5px 8px;
+}
+
+#card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightblue;
+}
+
+.bold {
+    font-weight: bold;
+}
